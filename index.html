@@ -10,7 +10,8 @@
     
     <div id="app">
         <h1>{{ message }}</h1>
-        <img v-bind:src="image" id="vue-img"  alt="vuejs-picture ">
+        <img v-bind:src="image" v-if="!isHidden" id="vue-img"  alt="vuejs-picture ">
+        <button @click="isHidden = !isHidden">Here iAm</button>
     </div>
 
 

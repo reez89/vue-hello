@@ -7,12 +7,24 @@ body {
 
 #app {
     display: flex;
-    flex-flow: row-reverse;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
 
+#app h1 {
+    color: #231f20;
+}
+
 img {
     height: 150px;
-    visibility: visible;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #41b883;
 }

@@ -6,6 +6,7 @@ let app = new Vue({
     el: '#app', 
     data:{
         message: "Finally we meet, VueJS <3",
-        image: 'vue.png'
-    }
+        image: 'vue.png',
+        isHidden: 'false'
+    },
 });
